@@ -41,6 +41,9 @@ import qualified "mtl" Control.Monad.Reader as RD
 import qualified       System.Random.MWC as Random
 import                 System.IO.Unsafe (unsafePerformIO)
 import                 System.Mem.StableName (makeStableName, hashStableName)
+import Control.Monad
+import Control.Monad.IO.Class
+import Control.Monad.Trans
 import qualified       Control.Monad.Par.Class  as PC
 import qualified       Control.Monad.Par.Unsafe as UN
 import                 Control.Monad.Par.Scheds.DirectInternal
