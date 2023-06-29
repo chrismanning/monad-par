@@ -1,1 +1,5 @@
 examples/run_benchmark export-ignore
+examples/src/kmeans/kmeans_gendata.hs export-ignore
+examples/timeout.sh export-ignore
+tests/ntimes export-ignore
+tests/ntimes_minmedmax export-ignore
